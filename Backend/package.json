@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "mern website",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Bodhisatwa2002/BookStore/issues"
   },
-  "homepage": "https://github.com/Bodhisatwa2002/BookStore#readme"
+  "homepage": "https://github.com/Bodhisatwa2002/BookStore#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
+    "nodemon": "^3.1.4"
+  }
 }
