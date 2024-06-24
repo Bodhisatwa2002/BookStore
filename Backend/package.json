@@ -1,0 +1,19 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "mern website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bodhisatwa2002/BookStore.git"
+  },
+  "author": "Bodhisatwa Chakraborty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bodhisatwa2002/BookStore/issues"
+  },
+  "homepage": "https://github.com/Bodhisatwa2002/BookStore#readme"
+}
