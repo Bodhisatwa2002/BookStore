@@ -5,17 +5,10 @@ import {
 } from "@heroicons/react/20/solid";
 
 export default function AboutUs() {
-  const people = [
-    {
-      name: "Leslie Alexander",
-      role: "Co-Founder / CEO",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
-  ];
+  
   return (
     <div>
-      <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+      <div className="relative isolate overflow-hidden bg-white dark:bg-gray-900 px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <svg
             className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
@@ -54,10 +47,10 @@ export default function AboutUs() {
                 <p className="text-base font-semibold leading-7 text-indigo-600">
                   Deploy faster
                 </p>
-                <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <h1 className="mt-2 text-3xl font-bold tracking-tight dark:text-white text-gray-900 sm:text-4xl">
                   A better workflow
                 </h1>
-                <p className="mt-6 text-xl leading-8 text-gray-700">
+                <p className="mt-6 text-xl leading-8 dark:text-white text-gray-700">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Quidem ipsam, aperiam voluptate similique at impedit dolor
                   odit mollitia qui laborum alias dolorum expedita!
@@ -74,7 +67,7 @@ export default function AboutUs() {
           </div>
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
-              <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
+              <div className="max-w-xl text-base leading-7 dark:text-white text-gray-700 lg:max-w-lg">
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae optio nemo reprehenderit commodi et eaque
@@ -84,11 +77,11 @@ export default function AboutUs() {
                 <ul role="list" className="mt-8 space-y-8 text-gray-600">
                   <li className="flex gap-x-3">
                     <CloudArrowUpIcon
-                      className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                      className="mt-1 h-5 w-5 flex-none dark:text-indigo-400 text-indigo-600"
                       aria-hidden="true"
                     />
-                    <span>
-                      <strong className="font-semibold text-gray-900">
+                    <span className="dark:text-white">
+                      <strong className="font-semibold dark:text-white text-gray-900">
                         Push to deploy.
                       </strong>{" "}
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -98,11 +91,11 @@ export default function AboutUs() {
                   </li>
                   <li className="flex gap-x-3">
                     <LockClosedIcon
-                      className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                      className="mt-1 h-5 w-5 flex-none dark:text-indigo-400 text-indigo-600"
                       aria-hidden="true"
                     />
-                    <span>
-                      <strong className="font-semibold text-gray-900">
+                    <span className="dark:text-white">
+                      <strong className="font-semibold dark:text-white text-gray-900">
                         SSL certificates.
                       </strong>{" "}
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -111,11 +104,11 @@ export default function AboutUs() {
                   </li>
                   <li className="flex gap-x-3">
                     <ServerIcon
-                      className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                      className="mt-1 h-5 w-5 flex-none dark:text-indigo-400 text-indigo-600"
                       aria-hidden="true"
                     />
-                    <span>
-                      <strong className="font-semibold text-gray-900">
+                    <span className="dark:text-white">
+                      <strong className="font-semibold dark:text-white text-gray-900">
                         Database backups.
                       </strong>{" "}
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -124,16 +117,16 @@ export default function AboutUs() {
                     </span>
                   </li>
                 </ul>
-                <p className="mt-8">
+                <p className="mt-8 dark:text-white">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Debitis corrupti nemo vitae, et id labore? Atque ipsum quia
                   voluptatum molestias nam, vel laborum expedita, deserunt
                   beatae quas placeat explicabo consequuntur!
                 </p>
-                <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                <h2 className="mt-16 text-2xl font-bold tracking-tight dark:text-white text-gray-900">
                   No server? No problem.
                 </h2>
-                <p className="mt-6">
+                <p className="mt-6 dark:text-white">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Debitis corrupti nemo vitae, et id labore? Atque ipsum quia
                   voluptatum molestias nam, vel laborum expedita, deserunt
