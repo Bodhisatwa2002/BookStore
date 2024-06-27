@@ -25,7 +25,7 @@ function Signup() {
       .then((res) => {
         console.log(res.data);
         if (res.data) {
-          toast.success("Signup Successfully");
+          toast.success("Signup Successful");
           navigate(from, { replace: true });
         }
         localStorage.setItem("Users", JSON.stringify(res.data.user));
