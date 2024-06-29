@@ -7,13 +7,16 @@ function Banner() {
         <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-36">
           <div className="space-y-8">
             <h1 className="text-2xl md:text-4xl font-bold">
-              Hello, welcomes here to learn something{" "}
+              BookStore, welcomes you here to learn something{" "}
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-sm md:text-xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              et totam. Tempora amet atque expedita, quae corrupti totam sed
-              pariatur corporis at veniam est voluptas animi!
+              We offer a diverse collection of books, from timeless classics to
+              contemporary bestsellers, ensuring there's something for everyone.
+              In addition to our extensive library, we specialize in creating
+              customized websites that enhance the user experience, making it
+              easier for readers to discover, purchase, and enjoy their favorite
+              books
             </p>
             <label className="input input-bordered flex items-center gap-2">
               <svg
